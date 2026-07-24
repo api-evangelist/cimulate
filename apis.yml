@@ -1,9 +1,28 @@
 aid: cimulate
 name: Cimulate
-description: 'Cimulate is a company surfaced as a portfolio company of sierra-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Cimulate is an AI-native commerce experience platform for intelligent product
+  discovery, delivering context-aware search, adaptive browse, real-time
+  recommendations, a conversational AI shopping assistant, and Commerce AEO
+  (answer/agent engine optimization for visibility inside LLM surfaces like
+  ChatGPT, Perplexity, and Claude). The platform is architected API-first and
+  headless-ready and advertises a proprietary Model Context Protocol (MCP)
+  server for agentic commerce workflows. Cimulate became part of Salesforce in
+  February 2026. It was surfaced in the API Evangelist network as a portfolio
+  company of Sierra Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/cimulate/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cimulate.ai/wp-content/uploads/2025/07/cimulate-by-salesforce-2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Ecommerce
+- Search
+- Product Discovery
+- Recommendations
+- Agentic Commerce
+- MCP
+- Retail
+- Conversational AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://cimulate.ai/
+- type: Blog
+  url: https://cimulate.ai/blog/
+- type: PrivacyPolicy
+  url: https://cimulate.ai/privacy-policy/
+- type: Support
+  url: https://cimulate.ai/contact/
+- type: SignUp
+  name: Request a Demo
+  url: https://cimulate.ai/request-a-demo/
+- type: MCPServer
+  name: Cimulate MCP Server (advertised)
+  url: mcp/cimulate-mcp.yml
+- type: DomainSecurity
+  url: security/cimulate-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

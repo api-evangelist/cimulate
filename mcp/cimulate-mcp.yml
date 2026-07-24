@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://cimulate.ai/product/
+status: advertised   # advertised | published | candidate
+notes: >-
+  Cimulate advertises a first-party Model Context Protocol (MCP) server on its
+  product page, described as enabling "secure real time access to your data,
+  tools, and commerce workflows inside agentic systems." No public endpoint URL,
+  transport, tool list, or installation instructions are published on the open
+  web (the platform is gated behind a demo request and, as of Feb 2026, is part
+  of Salesforce). Recorded as a verified first-party claim; not fabricating a
+  tool surface that is not published.
+server:
+  name: cimulate
+  vendor: Cimulate (Salesforce)
+  transport: null      # not published
+  url: null            # not published
+  auth: null           # not published
+tools: []              # not published; no OpenAPI in repo to derive candidates from
