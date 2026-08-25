@@ -1,15 +1,11 @@
 aid: cimulate
 name: Cimulate
-description: >-
-  Cimulate is an AI-native commerce experience platform for intelligent product
-  discovery, delivering context-aware search, adaptive browse, real-time
-  recommendations, a conversational AI shopping assistant, and Commerce AEO
-  (answer/agent engine optimization for visibility inside LLM surfaces like
-  ChatGPT, Perplexity, and Claude). The platform is architected API-first and
-  headless-ready and advertises a proprietary Model Context Protocol (MCP)
-  server for agentic commerce workflows. Cimulate became part of Salesforce in
-  February 2026. It was surfaced in the API Evangelist network as a portfolio
-  company of Sierra Ventures.
+description: Cimulate is an AI-native commerce experience platform for intelligent product discovery, delivering
+  context-aware search, adaptive browse, real-time recommendations, a conversational AI shopping assistant, and
+  Commerce AEO (answer/agent engine optimization for visibility inside LLM surfaces like ChatGPT, Perplexity, and
+  Claude). The platform is architected API-first and headless-ready and advertises a proprietary Model Context Protocol
+  (MCP) server for agentic commerce workflows. Cimulate became part of Salesforce in February 2026. It was surfaced
+  in the API Evangelist network as a portfolio company of Sierra Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/cimulate/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -31,7 +27,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-21'
 tags:
 - Company
 - Artificial Intelligence
@@ -61,6 +57,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/salesforce/
+  name: Salesforce
+  x-relationship: acquisition
+  x-generated-by: salesforce-family:2026-08-21
+  x-acquired: 2026
 - type: Website
   url: https://cimulate.ai/
 - type: Blog
@@ -82,3 +84,6 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: salesforce
+x-relationship: acquisition
+x-acquired: 2026
